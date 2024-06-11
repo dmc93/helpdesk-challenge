@@ -10,12 +10,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+
        <div> NEW APP </div>
        <BrowserRouter>
        <Route path="/contactus" element ={<contactUs />} />  
        </BrowserRouter>
        <div onClick={navigate('/contactus')}> click here to link to contact us</div>
        </header>
+
+        
+       
+      </header>
+
     </div>
   );
 }
