@@ -13,10 +13,6 @@ pipeline {
                 bat '''
                 pm2 delete all
                 '''
-<<<<<<< HEAD
-=======
-                //
->>>>>>> 7e45df6eb3c2774c45f6d78298104910c39173bd
             }
         }
         stage('Run') {
